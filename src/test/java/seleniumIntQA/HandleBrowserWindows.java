@@ -73,7 +73,7 @@ public class HandleBrowserWindows {
 		
 		//Close the window based on choice
 		
-		  for(String w:windowIDList) { 
+		  for(String w:windowIds) { 
 			  String title=driver.switchTo().window(w).getTitle();
 		  //title.equals("OrangeHRM") || title.equals("OrangeHRM HR Software | Free & Open Source HR Software | HRMS | HRIS | OrangeHRM")
 		  if(title.equals("OrangeHRM HR Software | Free & Open Source HR Software | HRMS | HRIS | OrangeHRM")) {

@@ -6,7 +6,7 @@ public class Prime {
 		// TODO Auto-generated method stub
 		
 		int number=13;
-		
+		//2, 3, 5, 7, 11, 13
 		boolean flag=false;
 		for(int i=2;i<=number/2;i++) {
 			

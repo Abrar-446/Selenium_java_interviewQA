@@ -30,7 +30,7 @@ public class CharOccurances {
 	}
 	System.out.println(hm);
 	
-	for( Entry<Character, Integer> h:hm.entrySet()) {
+	for(Entry<Character, Integer> h:hm.entrySet()) {
 		
 		//System.out.println("Key is:-->"+h.getKey()+ "  "+ "Value is:--->	"+h.getValue());
 		//print only unique characters elimiates duplicates
